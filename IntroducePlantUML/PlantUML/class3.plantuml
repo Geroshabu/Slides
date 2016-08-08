@@ -1,0 +1,16 @@
+skinparam class {
+  ArrowColor #e0e0e0
+  ArrowFontColor #ffffff
+
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+  AttributeFontColor #ffffff
+  StereotypeFontColor #e0e0e0
+}
+
+abstract 抽象クラス
+interface インタフェース
+enum 列挙型
+class クラス <<ステレオタイプ>>
+class なんでもOK << (☠, yellow) >>

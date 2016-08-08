@@ -1,0 +1,49 @@
+skinparam background {
+  Color transparent
+}
+
+skinparam activity {
+  StartColor #e0e0e0
+  EndColor #e0e0e0
+  BarColor #e0e0e0
+  BackgroundColor #508050
+  BorderColor #e0e0e0
+
+  FontColor #ffffff
+}
+
+skinparam state {
+  BackgroundColor #508050
+  BorderColor #a0a0a0
+  FontColor #ffffff
+  AttributeFontColor #ffffff
+  StartColor #a0a0a0
+  EndColor #a0a0a0
+}
+
+skinparam usecase {
+  ArrowColor #a0a0a0
+  ArrowFontColor #ffffff
+
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+  AttributeFontColor #ffffff
+  StereotypeFontColor #e0e0e0
+}
+
+skinparam package {
+  BackgroundColor #c0c0a0
+  FontColor #e0e0e0
+}
+
+[*] -> 状態A
+state 状態A {
+  [*] -> 内部状態A
+  内部状態A -> 内部状態B
+  内部状態B -> [*]
+  --
+  [*] -> 内部状態C
+  内部状態C -> 内部状態C
+}
+状態A -> [*]

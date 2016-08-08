@@ -1,0 +1,17 @@
+skinparam sequence {
+  ArrowColor #E0E0E0
+
+  LifeLineBorderColor #E0E0E0
+
+  ParticipantBorderColor #E0E0E0
+  ParticipantBackgroundColor #508050
+  ParticipantFontColor #ffffff
+  ParticipantFontStyle bold
+}
+
+participant main
+
+create sub
+main -> sub : <color:#ffffff>生成</color>
+sub --> main : <color:#ffffff>破棄</color>
+destroy sub

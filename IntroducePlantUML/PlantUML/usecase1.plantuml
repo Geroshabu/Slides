@@ -1,0 +1,26 @@
+skinparam usecase {
+  ArrowColor #e0e0e0
+  ArrowFontColor #ffffff
+
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+  AttributeFontColor #ffffff
+  StereotypeFontColor #e0e0e0
+}
+
+skinparam actor {
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+}
+
+skinparam package {
+  BackgroundColor #c0c0a0
+}
+
+:アクター:
+
+package システム {
+  アクター -- (ユースケース)
+}

@@ -1,0 +1,16 @@
+skinparam class {
+  ArrowColor #e0e0e0
+  ArrowFontColor #ffffff
+
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+  AttributeFontColor #ffffff
+}
+
+class Hoge {
+  - int Field
+  + bool Method(string arg)
+}
+
+Hoge -> Foo

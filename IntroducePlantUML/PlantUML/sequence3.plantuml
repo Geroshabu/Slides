@@ -1,0 +1,22 @@
+skinparam sequence {
+  ArrowColor #E0E0E0
+  ArrowFontColor #ffffff
+
+  LifeLineBackgroundColor #80d080
+  LifeLineBorderColor #E0E0E0
+
+  ParticipantBorderColor #E0E0E0
+  ParticipantBackgroundColor #508050
+  ParticipantFontColor #ffffff
+  ParticipantFontStyle bold
+}
+
+main -> sub : メッセージ
+activate sub
+
+  sub -> sub : 内部処理
+  activate sub #80a080
+  deactivate sub
+
+sub --> main : 結果
+deactivate sub

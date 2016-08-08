@@ -1,0 +1,14 @@
+skinparam class {
+  ArrowColor #e0e0e0
+  ArrowFontColor #ffffff
+
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+}
+
+Hoge --> Foo : 関連
+Hoge <|-- SubHoge : 汎化
+Hoge o-- Bar : 集約
+Hoge *-- Piyo : コンポジション
+Hoge <|.. HogeImpl : 実現

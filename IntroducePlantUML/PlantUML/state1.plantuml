@@ -1,0 +1,37 @@
+skinparam activity {
+  StartColor #e0e0e0
+  EndColor #e0e0e0
+  BarColor #e0e0e0
+  BackgroundColor #508050
+  BorderColor #e0e0e0
+
+  FontColor #ffffff
+}
+
+skinparam state {
+  BackgroundColor #508050
+  BorderColor #e0e0e0
+  FontColor #ffffff
+  StartColor #e0e0e0
+  EndColor #e0e0e0
+}
+
+skinparam usecase {
+  ArrowColor #e0e0e0
+  ArrowFontColor #ffffff
+
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+  AttributeFontColor #ffffff
+  StereotypeFontColor #e0e0e0
+}
+
+skinparam package {
+  BackgroundColor #c0c0a0
+  FontColor #e0e0e0
+}
+
+[*] --> 状態A : 遷移A
+状態A --> 状態A : 遷移B
+状態A --> [*] : 遷移C

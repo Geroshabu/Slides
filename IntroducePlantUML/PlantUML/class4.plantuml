@@ -1,0 +1,20 @@
+skinparam class {
+  ArrowColor #e0e0e0
+  ArrowFontColor #ffffff
+
+  BorderColor #e0e0e0
+  BackgroundColor #508050
+  FontColor #ffffff
+  AttributeFontColor #ffffff
+  StereotypeFontColor #e0e0e0
+}
+
+skinparam package {
+  BackgroundColor #c0c0a0
+}
+
+クラスA -> モジュールX.クラスB
+namespace モジュールX {
+  クラスB -> クラスC
+  クラスC -> モジュールY.クラスC
+}

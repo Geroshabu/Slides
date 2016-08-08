@@ -1,0 +1,14 @@
+skinparam sequence {
+  ArrowColor #E0E0E0
+
+  LifeLineBorderColor #E0E0E0
+
+  ParticipantBorderColor #E0E0E0
+  ParticipantBackgroundColor #508050
+  ParticipantFontColor #ffffff
+  ParticipantFontStyle bold
+}
+
+送り手 -> 受け手 : <color:#ffffff>同期メッセージ</color>
+受け手 --> 送り手 : <color:#ffffff>戻りメッセージ</color>
+送り手 ->> 受け手 : <color:#ffffff>非同期メッセージ</color>

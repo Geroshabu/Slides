@@ -1,0 +1,24 @@
+skinparam sequence {
+  ArrowColor #E0E0E0
+  ArrowFontColor #ffffff
+
+  LifeLineBackgroundColor #80d080
+  LifeLineBorderColor #E0E0E0
+
+  ParticipantBorderColor #E0E0E0
+  ParticipantBackgroundColor #508050
+  ParticipantFontColor #ffffff
+  ParticipantFontStyle bold
+
+  DividerBackgroundColor #000000
+}
+
+main ->> sub : ファイル読み込み
+
+alt #8080c0 ファイルがある
+  loop #9898d0 1, 行数
+    sub -> sub : 一行読み込み
+  end
+else ファイルがない
+  sub -> sub : エラー表示
+end
