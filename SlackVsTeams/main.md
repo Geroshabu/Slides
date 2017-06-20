@@ -36,7 +36,7 @@ https://products.office.com/microsoft-teams/group-chat-software
 
 ---
 
-## Slack にも Teams にもある機能
+## Slack と Teams でちょっと違う機能
 
 ---
 
@@ -57,6 +57,16 @@ https://products.office.com/microsoft-teams/group-chat-software
 `/remind` コマンドで,
 
 超お手軽にリマインドを設定できる.
+
+---
+
+## Message Link
+
+![MessageWithLink](./images/MessageWithLink.png)
+
+> Everything must have a URL.
+
+(by GitHub)
 
 ---
 
