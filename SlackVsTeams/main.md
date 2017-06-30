@@ -78,8 +78,20 @@ Office 365 のツールの一部として, 2017年3月15日に提供開始.
 
 ### Sticker
 
-
-
 ![Sticker](./images/Sticker.gif)
+
+---
+
+### Important Message
+
+「重要」フラグを付加することができる.
+
+![ImportantMessage](./images/ImportantMessageCensored.png)
+
+チャンネル一覧にも特別なマークが.
+
+![ImportantNotification](./images/ImportantNotificationCensored.png)
+
+
 
 ---
