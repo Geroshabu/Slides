@@ -34,6 +34,8 @@ Office 365 のチャットベースのワークスペース
 
 https://products.office.com/microsoft-teams/group-chat-software
 
+Office 365 のツールの一部として, 2017年3月15日に提供開始.
+
 ---
 
 ## Slack と Teams でちょっと違う機能
