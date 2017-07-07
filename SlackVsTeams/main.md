@@ -55,6 +55,30 @@ Office 365 のツールの一部として,
 
 ---
 
+<!-- .slide: data-background="images/111193-OO0LDV-826.jpg" -->
+
+### Timeline vs Thread
+
+Slack は基本的にタイムライン
+
+(画像載せる)
+
+Teams は基本的にスレッド
+
+![Thread](./images/ThreadCensored.png)
+
+--
+
+<!-- .slide: data-background="images/111193-OO0LDV-826.jpg" -->
+
+### Timeline vs Thread
+
+Slack は単純な時系列順
+
+Teams は最新の投稿があったスレッドが浮上
+
+---
+
 ### Now Typing...
 
 <!-- .slide: data-background="images/111193-OO0LDV-826.jpg" -->
