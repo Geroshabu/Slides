@@ -123,6 +123,16 @@ Teams は最新の投稿があったスレッドが浮上
 
 ---
 
+### MS Products Collaboration
+
+<!-- .slide: data-background="images/5570_1.jpg" -->
+
+MS製品との連携は強い(と思う)
+
+![MSProductsCollaboration](./images/MSProductsCollaboration.png)
+
+---
+
 ### Sticker
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
