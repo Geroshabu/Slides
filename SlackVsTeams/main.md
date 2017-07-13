@@ -89,6 +89,39 @@ Teams は最新の投稿があったスレッドが浮上
 
 ---
 
+### Editor
+
+<!-- .slide: data-background="images/111193-OO0LDV-826.jpg" -->
+
+Markdown 形式の一部をサポート
+
+| 種類 | サポート |
+| -- | -- |
+| 見出し | × |
+| 箇条書き | ○ |
+| 強調・斜体・打消し | ○ |
+| 引用 | ○ |
+| コードブロック | ○ |
+| テーブル | × |
+
+--
+
+<!-- .slide: data-background="images/111193-OO0LDV-826.jpg" -->
+
+### Editor
+
+文字を打っていると勝手に変換される
+
+![AutoHyperText](./images/AutoHyperText.gif) <!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+![AutoList](./images/AutoList.gif) <!-- .element: class="fragment" data-fragment-index="2" -->
+
+
+![AutoCodeText](./images/AutoCodeText.gif) <!-- .element: class="fragment" data-fragment-index="3" -->
+
+---
+
 <!-- .slide: data-background="images/8499.jpg" -->
 
 ## Teams にはない機能
