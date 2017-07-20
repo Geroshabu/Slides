@@ -123,6 +123,40 @@ MS製品との連携は強い(と思う)
 
 ---
 
+### Notification
+
+<!-- .slide: data-background="images/5570_1.jpg" -->
+
+Teams はスレッドに返信されると通知が飛んでくる
+
+![NotificationPopup1](./images/NotificationPopup1Censored.png)  
+![NotificationPopup2](./images/NotificationPopup2Censored.png)  
+![NotificationPopup3](./images/NotificationPopup3Censored.png)
+
+Note:
+メンションを付けずに返信されることがあるので
+個人的にはいいかんじ.
+
+ちなみに, どういうときに通知を飛ばすかは
+設定でカスタマイズ可能である.
+Slack では, 全ての投稿で通知を飛ばすか,
+自分宛の投稿は通知を飛ばすか,
+全く通知を飛ばさないかぐらいしか選択できないが,
+Teams ではもうちょっと細かく設定できる.
+
+--
+
+### Notification
+
+<!-- .slide: data-background="images/5570_1.jpg" -->
+
+ただし, 特定のキーワードが含まれるときに  
+通知する機能はない
+
+チャンネルごとの個別設定もない
+
+---
+
 ### Important Message
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
