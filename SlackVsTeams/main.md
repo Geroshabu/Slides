@@ -113,9 +113,9 @@ Teams では時系列順ではないので,
 
 ---
 
-### MS Products Collaboration
-
 <!-- .slide: data-background="images/5570_1.jpg" -->
+
+### MS Products Collaboration
 
 MS製品との連携は強い(と思う)
 
@@ -123,9 +123,9 @@ MS製品との連携は強い(と思う)
 
 ---
 
-### Notification
-
 <!-- .slide: data-background="images/5570_1.jpg" -->
+
+### Notification
 
 Teams はスレッドに返信されると通知が飛んでくる
 
@@ -146,9 +146,9 @@ Teams ではもうちょっと細かく設定できる.
 
 --
 
-### Notification
-
 <!-- .slide: data-background="images/5570_1.jpg" -->
+
+### Notification
 
 ただし, 特定のキーワードが含まれるときに  
 通知する機能はない
@@ -157,9 +157,9 @@ Teams ではもうちょっと細かく設定できる.
 
 ---
 
-### Important Message
-
 <!-- .slide: data-background="images/5570_1.jpg" -->
+
+### Important Message
 
 「重要」フラグを付加することができる.
 
@@ -171,9 +171,9 @@ Teams ではもうちょっと細かく設定できる.
 
 ---
 
-### Sticker
-
 <!-- .slide: data-background="images/5570_1.jpg" -->
+
+### Sticker
 
 ![Sticker](./images/Sticker.gif)
 
@@ -195,9 +195,9 @@ Teams ではもうちょっと細かく設定できる.
 
 ---
 
-## Message Link
-
 <!-- .slide: data-background="images/2914_1.jpg" -->
+
+## Message Link
 
 ![MessageWithLink](./images/MessageWithLink.png)
 
@@ -207,9 +207,9 @@ Teams ではもうちょっと細かく設定できる.
 
 ---
 
-### Editor
-
 <!-- .slide: data-background="images/2914_1.jpg" -->
+
+### Editor
 
 Markdown 形式の一部をサポート (※Slack 同等)
 
@@ -262,9 +262,9 @@ Slack では, メッセージに対してアイコンでリアクションでき
 
 ---
 
-### Now Typing...
-
 <!-- .slide: data-background="images/2914_1.jpg" -->
+
+### Now Typing...
 
 ![TeamsNowTypingCensored](./images/TeamsNowTypingCensored.png)
 
