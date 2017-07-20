@@ -238,6 +238,30 @@ Markdown 形式の一部をサポート (※Slack 同等)
 
 ---
 
+<!-- .slide: data-background="images/2914_1.jpg" -->
+
+### Reaction
+
+Slackのようにアイコンでリアクションできない
+
+![IconReaction1](./images/IconReaction1.png)  
+![IconReaction2](./images/IconReaction2.png)
+
+「いいね!」一択
+
+![IconReaction3](./images/IconReaction3Censored.png)
+
+Note:
+Slack では, メッセージに対してアイコンでリアクションできる.
+"了解です" とか "お願いします" とか,
+わざわざメッセージで投稿しなくても
+ニュアンスが伝えられるので便利だった.
+
+対して, Teams では何でもかんでも「いいね!」なので,
+そういう使い分けができなくなった.
+
+---
+
 ### Now Typing...
 
 <!-- .slide: data-background="images/2914_1.jpg" -->
