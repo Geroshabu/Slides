@@ -159,6 +159,18 @@ Teams ではもうちょっと細かく設定できる.
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
 
+### Inline Image
+
+Teams では, 文中に画像を貼り付けできる.
+
+![InlineImage](./images/InlineImage.png)
+
+画像を使った説明が容易に.
+
+---
+
+<!-- .slide: data-background="images/5570_1.jpg" -->
+
 ### Important Message
 
 「重要」フラグを付加することができる.
