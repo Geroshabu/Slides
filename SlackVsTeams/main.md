@@ -189,9 +189,22 @@ Teams ではもうちょっと細かく設定できる.
 
 ## Reminder
 
-`/remind` コマンドで,
+Slack の `/remind` コマンド
 
-超お手軽にリマインドを設定できる.
+![reminder1](./images/reminder1.png)  
+![reminder3](./images/reminder3.png)  
+![reminder4](./images/reminder4Censored.png)
+
+Teams ではこれが無い.
+
+Note:
+Slack では, /remind コマンドで,
+超お手軽にリマインドを設定できた.
+/remind コマンドのいいところは,
+自然言語っぽい書き方でリマインドが設定できるところ.
+テキストだけで書けるので,
+何か用事が生まれたときにサッと設定できて,
+個人的にはとても重宝していた.
 
 ---
 
