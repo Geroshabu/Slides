@@ -295,11 +295,13 @@ Slack では, メッセージに対してアイコンでリアクションでき
 
 ### Now Typing...
 
+Teams のチャンネルでは,
+
+"今, 誰かが入力している" ことを示す機能が無い.
+
+(※ダイレクトチャットにはある ↓)
+
 ![TeamsNowTypingCensored](./images/TeamsNowTypingCensored.png)
-
-Teams のチャンネルには, この機能はない
-
-(ダイレクトチャットにはある)
 
 ---
 
