@@ -212,6 +212,10 @@ Slack では, /remind コマンドで,
 
 ## Message Link
 
+Slack では投稿に URL が付く.
+
+Teams では付かない.
+
 ![MessageWithLink](./images/MessageWithLink.png)
 
 > Everything must have a URL.
