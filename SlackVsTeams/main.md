@@ -159,6 +159,24 @@ Teams ではもうちょっと細かく設定できる.
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
 
+### Editor
+
+Markdown 形式の一部をサポート
+
+| 種類 | Slack | Teams |
+| -- |:--:|:--:|
+| 見出し | × | × |
+| 箇条書き | × | ○ |
+| 強調・斜体・打消し | ○ | ○ |
+| 引用 | ○ | ○ |
+| コードブロック | ○ | ○ |
+| ハイパーテキスト | × | ○ |
+| テーブル | × | × |
+
+---
+
+<!-- .slide: data-background="images/5570_1.jpg" -->
+
 ### Inline Image
 
 Teams では, 文中に画像を貼り付けできる.
@@ -254,25 +272,7 @@ Slack ではすべての投稿に URL が付与される.
 
 <!-- .slide: data-background="images/2914_1.jpg" -->
 
-### Editor
-
-Markdown 形式の一部をサポート
-
-| 種類 | Slack | Teams |
-| -- | -- | -- |
-| 見出し | × | × |
-| 箇条書き | × | ○ |
-| 強調・斜体・打消し | ○ | ○ |
-| 引用 | ○ | ○ |
-| コードブロック | ○ | ○ |
-| ハイパーテキスト | × | ○ |
-| テーブル | × | × |
-
---
-
-<!-- .slide: data-background="images/2914_1.jpg" -->
-
-### Editor
+### Realtime Format
 
 文字を打っていると勝手に変換される
 
