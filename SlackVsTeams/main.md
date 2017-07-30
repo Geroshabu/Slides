@@ -29,9 +29,9 @@
 
 みんなおなじみ Slack
 
-今さら説明しなくてもいいよね☆
-
 https://slack.com/
+
+多くの開発者が使っているチャットツール
 
 --
 
@@ -51,7 +51,7 @@ Office 365 のツールの一部として,
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
 
-## よかったところ
+## Teams のよかったところ
 
 ---
 
@@ -127,7 +127,15 @@ MS製品との連携は強い(と思う)
 
 ### Notification
 
-Teams はスレッドに返信されると通知が飛んでくる
+メッセージが投稿されるとポップアップで通知してくれる機能
+
+Slack では, 自分がメンションされた場合に通知してくれる
+
+--
+
+<!-- .slide: data-background="images/5570_1.jpg" -->
+
+Teams では, それに加えて, スレッドに返信されたときなどにも通知してくれる
 
 ![NotificationPopup1](./images/NotificationPopup1Censored.png)  
 ![NotificationPopup2](./images/NotificationPopup2Censored.png)  
@@ -161,7 +169,7 @@ Teams ではもうちょっと細かく設定できる.
 
 ### Editor
 
-Markdown 形式の一部をサポート
+Teams は Markdown 形式の一部をサポート
 
 | 種類 | Slack | Teams |
 | -- |:--:|:--:|
@@ -179,6 +187,14 @@ Markdown 形式の一部をサポート
 
 ### Inline Image
 
+Slack も Teams も, 画像を投稿することができる.
+
+Slack では, 1 つの画像が 1 つの投稿.
+
+--
+
+<!-- .slide: data-background="images/5570_1.jpg" -->
+
 Teams では, 文中に画像を貼り付けできる.
 
 ![InlineImage](./images/InlineImage.png)
@@ -191,7 +207,7 @@ Teams では, 文中に画像を貼り付けできる.
 
 ### Important Message
 
-「重要」フラグを付加することができる.
+Teams では「重要」フラグを付加することができる.
 
 ![ImportantMessage](./images/ImportantMessageCensored.png)
 
