@@ -135,6 +135,8 @@ Slack では, 自分がメンションされた場合に通知してくれる
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
 
+### Notification
+
 Teams では, それに加えて, スレッドに返信されたときなどにも通知してくれる
 
 ![NotificationPopup1](./images/NotificationPopup1Censored.png)  
@@ -194,6 +196,8 @@ Slack では, 1 つの画像が 1 つの投稿.
 --
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
+
+### Inline Image
 
 Teams では, 文中に画像を貼り付けできる.
 
@@ -385,6 +389,33 @@ Teams ではこれが無い.
 (※ダイレクトチャットにはある ↓)
 
 ![TeamsNowTypingCensored](./images/TeamsNowTypingCensored.png)
+
+---
+
+<!-- .slide: data-background="images/8499.jpg" -->
+
+### まとめ
+
+* Slack の方が気軽にチャットしやすい.
+
+  * エディターが使いやすい (私好み)
+  * URL が付く
+  * 絵文字によるリアクション
+
+---
+
+<!-- .slide: data-background="images/8499.jpg" -->
+
+### まとめ
+
+* Teams の方が投稿に凝れる.
+
+  * 画像の挿入や, 対応している Markdown 記法が Slack より多い
+  * Sticker が楽しい
+
+* じっくり議論に向いていそう.
+
+  * スレッド形式のため, 1つの話題についての議論が見やすい
 
 ---
 
