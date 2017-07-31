@@ -290,7 +290,7 @@ Slack ではすべての投稿に URL が付与される.
 
 ### Realtime Format
 
-文字を打っていると勝手に変換される
+Teams では, 文字を打っていると勝手に変換される
 
 ![AutoHyperText](./images/AutoHyperText.gif) <!-- .element: class="fragment" data-fragment-index="1" -->
 ![AutoList](./images/AutoList.gif) <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -328,15 +328,21 @@ Slack では, メッセージに対してアイコンでリアクションでき
 
 ### Mention
 
-Teams には `@here` に相当する機能が無い.
+Slack には, `@here` というメンション機能がある.
+
+メンション範囲は, そのチャンネルの, *現在ログインしている* ユーザーである.
 
 ![MentionHere](./images/MentionHere.png)
+
+Teams には `@here` に相当する機能が無い.
 
 --
 
 <!-- .slide: data-background="images/2914_1.jpg" -->
 
 ### Mention
+
+メンション先を入力するとき,
 
 Slack では ID, 姓, 名を, 前方一致で探してくれる.
 
@@ -370,9 +376,11 @@ Teams では, 基本的に
 
 ### Now Typing...
 
-Teams のチャンネルでは,
+Slack のチャンネルでは,
 
-"今, 誰かが入力している" ことを示す機能が無い.
+"今, 他の人が入力中である" ということを表示してくれる.
+
+Teams ではこれが無い.
 
 (※ダイレクトチャットにはある ↓)
 
