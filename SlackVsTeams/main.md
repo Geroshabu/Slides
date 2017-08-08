@@ -386,7 +386,15 @@ Slack のチャンネルでは,
 
 "今, 他の人が入力中である" ということを表示してくれる.
 
-Teams ではこれが無い.
+![SlackNowTypingCensored](./images/SlackNowTypingCensored.png)
+
+--
+
+<!-- .slide: data-background="images/2914_1.jpg" -->
+
+### Now Typing...
+
+Teams では, チャンネルでは表示されない.
 
 (※ダイレクトチャットにはある ↓)
 
