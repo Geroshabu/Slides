@@ -193,6 +193,8 @@ Slack も Teams も, 画像を投稿することができる.
 
 Slack では, 1 つの画像が 1 つの投稿.
 
+![PostImage](./images/PostImage.png)
+
 --
 
 <!-- .slide: data-background="images/5570_1.jpg" -->
