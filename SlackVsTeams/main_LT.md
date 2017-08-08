@@ -49,13 +49,13 @@ Office 365 のツールの一部として,
 
 ---
 
-<!-- .slide: data-background="images/5570_1.jpg" -->
+<!-- .slide: data-background="images/OC1YA30.jpg" -->
 
 ## Teams のよかったところ
 
 ---
 
-<!-- .slide: data-background="images/5570_1.jpg" -->
+<!-- .slide: data-background="images/OC1YA30.jpg" -->
 
 ### Timeline vs Thread
 
@@ -78,7 +78,7 @@ Teams はスレッドでまとめられるので,
 
 --
 
-<!-- .slide: data-background="images/5570_1.jpg" -->
+<!-- .slide: data-background="images/OC1YA30.jpg" -->
 
 ### Timeline vs Thread
 
@@ -113,117 +113,7 @@ Teams では時系列順ではないので,
 
 ---
 
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### MS Products Collaboration
-
-MS製品との連携は強い(と思う)
-
-![MSProductsCollaboration](./images/MSProductsCollaboration.png)
-
----
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### Notification
-
-メッセージが投稿されるとポップアップで通知してくれる機能
-
-Slack では, 自分がメンションされた場合に通知してくれる
-
---
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### Notification
-
-Teams では, それに加えて, スレッドに返信されたときなどにも通知してくれる
-
-![NotificationPopup1](./images/NotificationPopup1Censored.png)  
-![NotificationPopup2](./images/NotificationPopup2Censored.png)  
-![NotificationPopup3](./images/NotificationPopup3Censored.png)
-
-Note:
-メンションを付けずに返信されることがあるので
-個人的にはいいかんじ.
-
-ちなみに, どういうときに通知を飛ばすかは
-設定でカスタマイズ可能である.
-Slack では, 全ての投稿で通知を飛ばすか,
-自分宛の投稿は通知を飛ばすか,
-全く通知を飛ばさないかぐらいしか選択できないが,
-Teams ではもうちょっと細かく設定できる.
-
---
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### Notification
-
-ただし, 特定のキーワードが含まれるときに  
-通知する機能はない
-
-チャンネルごとの個別設定もない
-
----
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### Editor
-
-Teams は Markdown 形式の一部をサポート
-
-| 種類 | Slack | Teams |
-| -- |:--:|:--:|
-| 見出し | × | × |
-| 箇条書き | × | ○ |
-| 強調・斜体・打消し | ○ | ○ |
-| 引用 | ○ | ○ |
-| コードブロック | ○ | ○ |
-| ハイパーテキスト | × | ○ |
-| テーブル | × | × |
-
----
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### Inline Image
-
-Slack も Teams も, 画像を投稿することができる.
-
-Slack では, 1 つの画像が 1 つの投稿.
-
-![PostImage](./images/PostImage.png)
-
---
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### Inline Image
-
-Teams では, 文中に画像を貼り付けできる.
-
-![InlineImage](./images/InlineImage.png)
-
-画像を使った説明が容易に.
-
----
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
-
-### Important Message
-
-Teams では「重要」フラグを付加することができる.
-
-![ImportantMessage](./images/ImportantMessageCensored.png)
-
-チャンネル一覧にも特別なマークが.
-
-![ImportantNotification](./images/ImportantNotificationCensored.png)
-
----
-
-<!-- .slide: data-background="images/5570_1.jpg" -->
+<!-- .slide: data-background="images/OC1YA30.jpg" -->
 
 ### Sticker
 
@@ -231,36 +121,13 @@ Teams では「重要」フラグを付加することができる.
 
 ---
 
-<!-- .slide: data-background="images/2914_1.jpg" -->
+<!-- .slide: data-background="images/OC1YA30.jpg" -->
 
-## 残念なところ
-
----
-
-<!-- .slide: data-background="images/2914_1.jpg" -->
-
-## Reminder
-
-Slack の `/remind` コマンド
-
-![reminder1](./images/reminder1.png)  
-![reminder3](./images/reminder3.png)  
-![reminder4](./images/reminder4Censored.png)
-
-Teams ではこれが無い.
-
-Note:
-Slack では, /remind コマンドで,
-超お手軽にリマインドを設定できた.
-/remind コマンドのいいところは,
-自然言語っぽい書き方でリマインドが設定できるところ.
-テキストだけで書けるので,
-何か用事が生まれたときにサッと設定できて,
-個人的にはとても重宝していた.
+## Teams の残念なところ
 
 ---
 
-<!-- .slide: data-background="images/2914_1.jpg" -->
+<!-- .slide: data-background="images/OC1YA30.jpg" -->
 
 ## Message Link
 
@@ -292,113 +159,26 @@ Slack ではすべての投稿に URL が付与される.
 
 ---
 
-<!-- .slide: data-background="images/2914_1.jpg" -->
+<!-- .slide: data-background="images/OC1YA30.jpg" -->
 
-### Realtime Format
+## Reminder
 
-Teams では, 文字を打っていると勝手に変換される
+Slack の `/remind` コマンド
 
-![AutoHyperText](./images/AutoHyperText.gif) <!-- .element: class="fragment" data-fragment-index="1" -->
-![AutoList](./images/AutoList.gif) <!-- .element: class="fragment" data-fragment-index="2" -->
-![AutoCodeText](./images/AutoCodeText.gif) <!-- .element: class="fragment" data-fragment-index="3" -->
+![reminder1](./images/reminder1.png)  
+![reminder3](./images/reminder3.png)  
+![reminder4](./images/reminder4Censored.png)
 
-個人的にはうっとうしい <!-- .element: class="fragment" data-fragment-index="3" -->
-
----
-
-<!-- .slide: data-background="images/2914_1.jpg" -->
-
-### Reaction
-
-Slackのようにアイコンでリアクションできない
-
-![IconReaction1](./images/IconReaction1.png)  
-![IconReaction2](./images/IconReaction2.png)
-
-「いいね!」一択
-
-![IconReaction3](./images/IconReaction3Censored.png)
+Teams ではこれが無い.
 
 Note:
-Slack では, メッセージに対してアイコンでリアクションできる.
-"了解です" とか "お願いします" とか,
-わざわざメッセージで投稿しなくても
-ニュアンスが伝えられるので便利だった.
-
-対して, Teams では何でもかんでも「いいね!」なので,
-そういう使い分けができなくなった.
-
----
-
-<!-- .slide: data-background="images/2914_1.jpg" -->
-
-### Mention
-
-Slack には, `@here` というメンション機能がある.
-
-メンション範囲は, そのチャンネルの, *現在ログインしている* ユーザーである.
-
-![MentionHere](./images/MentionHere.png)
-
-Teams には `@here` に相当する機能が無い.
-
---
-
-<!-- .slide: data-background="images/2914_1.jpg" -->
-
-### Mention
-
-メンション先を入力するとき,
-
-Slack では ID, 姓, 名を, 前方一致で探してくれる.
-
-![SearchUser](./images/SearchUser.png)
-
-Teams では, メールアドレス, 姓, 名を, 前方一致で探してくれる.
-
-Note:
-Slack では, メンションを飛ばす時は,
-基本的に ID を指定して,
-メンションを飛ばしたい相手を探していた.
-そのため, ほとんどの場合,
-日本語入力に切り替えなくてもメンションが飛ばせていた.
-
-Teams では, 基本的に
-姓を指定してメンションを飛ばしている.
-うちのプロジェクトメンバーは全員,
-姓を日本語で登録しているので,
-メンションを飛ばすたびに日本語入力に切り替えなければならず,
-非常に煩わしい.
-
-メールアドレスなら日本語入力に切り替えなくてもよいが,
-メールアドレスなんて覚えてられないので,
-結局, 姓による指定になってしまう.
-(Slack の ID は, 投稿に表示されるので,
-  頻繁に見る機会があったので, 覚えられる.)
-
----
-
-<!-- .slide: data-background="images/2914_1.jpg" -->
-
-### Now Typing...
-
-Slack のチャンネルでは,
-
-"今, 他の人が入力中である" ということを表示してくれる.
-
-![SlackNowTypingCensored](./images/SlackNowTypingCensored.png)
-
---
-
-<!-- .slide: data-background="images/2914_1.jpg" -->
-
-### Now Typing...
-
-Teams では, チャンネルでは表示されない.
-
-(※ダイレクトチャットにはある ↓)
-
-![TeamsNowTypingCensored](./images/TeamsNowTypingCensored.png)
+Slack では, /remind コマンドで,
+超お手軽にリマインドを設定できた.
+/remind コマンドのいいところは,
+自然言語っぽい書き方でリマインドが設定できるところ.
+テキストだけで書けるので,
+何か用事が生まれたときにサッと設定できて,
+個人的にはとても重宝していた.
 
 ---
 
@@ -432,6 +212,8 @@ Teams では, チャンネルでは表示されない.
 <!-- .slide: data-background="images/8499.jpg" -->
 
 ### Thank you for your attention
+
+完全版は[こちら](./index.html)
 
 --
 
