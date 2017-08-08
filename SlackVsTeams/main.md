@@ -61,7 +61,7 @@ Office 365 のツールの一部として,
 
 Slack は基本的にタイムライン
 
-(画像載せる)
+![TimeLine](./images/TimeLineCensored.png)
 
 Teams は基本的にスレッド
 
