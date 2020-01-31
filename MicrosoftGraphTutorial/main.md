@@ -4,7 +4,7 @@
 
 ## 作るアプリ
 
-(画像はる)
+![ApplicationImage](images/ApplicationImage.png)
 
 --
 
@@ -12,7 +12,7 @@
 
 * Visual Studio 2019
 * C# 8.0
-* WPF (.Net Core)
+* .Net Framework 4.7.2 (WPF)
 
 --
 
@@ -161,3 +161,96 @@ OAuth 2.0 で認証すると取得できる
 ---
 
 ## APIを叩く!!!
+
+--
+
+### ちょっと修正
+
+アクセストークンを作る機能を、インターフェイスとして抜き出しておこう。
+
+```csharp
+public interface IAccessTokenGenerator
+{
+    Task<string> GenerateAsync();
+}
+```
+
+--
+
+### サインインユーザの情報取得API
+
+Request
+```
+GET https://graph.microsoft.com/v1.0/me
+```
+
+Response
+```
+HTTP/1.1 200 OK
+Content-type: application/json
+Content-length: 491
+
+{
+  "businessPhones": [
+       "businessPhones-value"
+   ],
+   "displayName": "displayName-value",
+   "givenName": "givenName-value",
+   "jobTitle": "jobTitle-value",
+   ...(省略)
+}
+```
+
+--
+
+### Microsoft Graph SDK
+
+* 前述のような Request 送ったり Response 待ったり、jsonをパースしたり...が超簡単にできる！
+* 様々な言語向けに (C#, Python, JS, ...)
+* Microsoft が作ってる
+* C# (というか.Net) 向けのものはこれ : [Microsoft.Graph](https://www.nuget.org/packages/Microsoft.Graph)
+
+--
+
+早速 Microsoft Graph SDK を導入してみよう！
+
+--
+
+### 実装する必要があるインターフェイス
+
+* `Microsoft.Graph.IAuthenticationProvider`
+
+```csharp
+public class AuthenticationProvider : IAuthenticationProvider
+{
+    public Task AuthenticateRequestAsync(HttpRequestMessage request)
+    {
+        // アクセストークンをHTTPリクエストヘッダに詰める
+    }
+}
+```
+
+--
+
+### 使うクラス
+
+* `Microsoft.Graph.GraphServiceClient`
+
+    * このクラスを使って色々な情報が取得できる
+    * コンストラクタで先ほどの `IAuthenticationProvider` を渡す
+    * 何かAPIを叩こうとするたびに, `AuthenticateRequestAsync` が呼ばれる
+
+--
+
+### ここまで試してみよう！
+
+* 認証ボタンを押し...
+* Get Me ボタンを押す！
+
+---
+
+## 🎊 完成 🎉
+
+今回作成したコードは下記にあります。
+
+(GitHubリポジトリへのリンクはる)
