@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Otameshi.Authentication\Otameshi.Authentication.csproj" />
+    <ProjectReference Include="..\Otameshi.Core\Otameshi.Core.csproj" />
+    <ProjectReference Include="..\Otameshi.GraphApi\Otameshi.GraphApi.csproj" />
+  </ItemGroup>
+
+</Project>
