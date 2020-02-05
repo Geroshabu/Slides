@@ -253,4 +253,5 @@ public class AuthenticationProvider : IAuthenticationProvider
 
 今回作成したコードは下記にあります。
 
-(GitHubリポジトリへのリンクはる)
+[https://github.com/Geroshabu/Slides  
+/tree/master/MicrosoftGraphTutorial/Code/Otameshi](https://github.com/Geroshabu/Slides/tree/master/MicrosoftGraphTutorial/Code/Otameshi)
