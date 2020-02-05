@@ -1,0 +1,50 @@
+@startuml
+
+hide members
+
+package Otameshi {
+    class MainWindow
+    class MainWindowViewModel
+    class AuthenticationCommand
+    class GetMeCommand
+    class Output
+    class SigninState
+}
+package Otameshi.Core {
+    interface IAccessTokenGenerator
+    class User
+}
+package Otameshi.Authentication {
+    class InteractiveAccessTokenGenerator
+}
+package Otameshi.GraphApi {
+    class UserRepository
+    class AuthenticationProvider
+}
+package Microsoft.Graph {}
+package Microsoft.Identity.Client {}
+
+MainWindow "1" *--> "1" MainWindowViewModel
+MainWindowViewModel "1" *-> "1" AuthenticationCommand
+MainWindowViewModel "1" *-> "1" GetMeCommand
+MainWindowViewModel "1" o--> "1" Output
+GetMeCommand "1" o--> "1" Output
+AuthenticationCommand "1" o--> "1" Output
+GetMeCommand "1" o--> "1" SigninState
+AuthenticationCommand "1" o--> "1" SigninState
+
+InteractiveAccessTokenGenerator .|> IAccessTokenGenerator
+AuthenticationCommand "1" o--> "1" IAccessTokenGenerator
+GetMeCommand "1" o--> "1" IAccessTokenGenerator
+MainWindowViewModel ..> InteractiveAccessTokenGenerator
+
+GetMeCommand ...> UserRepository
+
+UserRepository ..> User
+AuthenticationProvider "0..*" o--> "1" IAccessTokenGenerator
+UserRepository .> AuthenticationProvider
+
+Otameshi.Authentication --> Microsoft.Identity.Client
+Otameshi.GraphApi --> Microsoft.Graph
+
+@enduml

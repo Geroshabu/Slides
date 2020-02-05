@@ -28,6 +28,8 @@
 
 サンプルアプリなのにしっかり設計するよ！
 
+![ClassDiagram](images/ClassDiagram.png)
+
 
 ---
 
