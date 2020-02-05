@@ -70,7 +70,9 @@ Azureポータルでアプリの登録
 
 * Azure Active Directoryで「アプリの登録」から
 * 今回は、任意の組織・個人アカウント
-* リダイレクトURI : `https://login.microsoftonline.com /common/oauth2/nativeclient`
+* リダイレクトURI :  
+  `https://login.microsoftonline.com  
+  /common/oauth2/nativeclient`
 
 ---
 
