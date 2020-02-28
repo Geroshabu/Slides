@@ -90,11 +90,14 @@ Let's enjoy coding!!
 
 --
 
-### 余談
+### プロジェクト作成にひと手間
 
-* .Net Standard/Core のプロジェクトってシンプルでいいよね
-* [これは「SDKスタイル」というらしい](https://docs.microsoft.com/ja-jp/nuget/resources/check-project-format)
-* SDKスタイルは .Net Framework でも使える
+Visual Studio のプロジェクトファイルには 2 種類のスタイルがある.
+
+* [SDKスタイルと、非SDKスタイル](https://docs.microsoft.com/ja-jp/nuget/resources/check-project-format)
+
+* 今回は「.Net Framework」のプロジェクトを「SDKスタイル」で作ります
+* Visual Studio は、勝手に「非SDKスタイル」で作っちゃうので、ひと工夫必要
 
 (非SDKスタイルのままだと後で[ハマりました](http://kuttsun.blogspot.com/2018/08/dll.html))
 
